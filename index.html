@@ -11,11 +11,11 @@
 <body>
     <header>
         <div class="navbar flex">
-            <div id="logo">
+            <div class="logo">
                 <img src="img/logo.svg">
             </div>
             <nav>
-                <ul id="nav-menu">
+                <ul id="nav-menu" class="flex">
                     <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Team</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
@@ -28,41 +28,50 @@
             <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family and co-workers.</p>
             <button>Get Started</button>
         </div>
+        <img src="img/bg-curvy-desktop.svg">
     </header>
     <main>
         <section id="features" class="grid">
             <div class="feature">
-                <img src="img/icon-access-anywhere.svg">
+                <div>
+                    <img src="img/icon-access-anywhere.svg">
+                </div>
                 <h3>Access your files, anywhere</h3>
                 <p>The ability to use a smartphone, tablet or computer to access your account means your files follow you anywhere.</p>
             </div>
             <div class="feature">
-                <img src="img/icon-security.svg">
+                <div>
+                    <img src="img/icon-security.svg">
+                </div>
                 <h3>Security you can trust</h3>
                 <p>2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
             </div>
             <div class="feature">
-                <img src="img/icon-collaboration.svg">
+                <div>
+                    <img src="img/icon-collaboration.svg">
+                </div>
                 <h3>Real-time collaboration</h3>
                 <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
             </div>
             <div class="feature">
-                <img src="img/icon-any-file.svg">
+                <div>
+                    <img src="img/icon-any-file.svg">
+                </div>
                 <h3>Store any type of file</h3>
                 <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
             </div>
         </section>
-        <section id="stay-productive" class="flex">
+        <section id="stay-productive" class="grid">
             <img src="img/illustration-stay-productive.png">
             <div>
-                <h3>Stay productive, wherever you are</h3>
+                <h1>Stay productive, <br /> wherever you are</h1>
                 <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
                 <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
                 <a href="#">See how Fylo works <img src="img/icon-arrow.svg" alt=""></a>
             </div>
         </section>
         <section id="testimonials" class="grid">
-            <!-- <img src="img/bg-quotes.png"> -->
+            <img src="img/bg-quotes.png">
             <div class="testimonial">
                 <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
                 <div class="testimonial-profile flex">
@@ -95,18 +104,20 @@
             </div>
         </section>
         <section id="early-access">
-            <h3>Get early access today</h3>
+            <h1>Get early access today</h1>
             <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
             <form class="flex">
                 <input type="text" id="input-early-access" placeholder="email@example.com">
                 <input type="submit" value="Get Started For Free">
             </form>
         </section>
-        <footer>
-            <img src="img/logo.svg">
+        <footer class="flex">
+            <div class="logo">
+                <img src="img/logo.svg">
+            </div>
             <div class="grid">
                 <div class="flex">
-                    <img src="img/icon-location.svg">
+                    <img src="img/icon-location.svg" id="icon-location">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, sed fugit minima eligendi porro commodi ea. Nam, sequi porro.</p>
                 </div>
                 <div>
@@ -132,9 +143,9 @@
                 </ul>
                 <div id="socialmedia">
                     <div class="flex">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
                     </div>
                 </div>
             </div>
