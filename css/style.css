@@ -144,6 +144,7 @@ main #stay-productive {
 
 main #stay-productive > img {
     width: 400px;
+    justify-self: center;
 }
 
 main #stay-productive > div a {
