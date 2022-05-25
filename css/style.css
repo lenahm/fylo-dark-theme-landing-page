@@ -1,5 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+:root {
+    --bg-intro-and-email-signup: hsl(217, 28%, 15%); 
+    --bg-main: hsl(218, 28%, 13%); 
+    --bg-footer: hsl(216, 53%, 9%); 
+    --bg-testimonials: hsl(219, 30%, 18%); 
+    --accent-cyan: hsl(176, 68%, 64%); 
+    --accent-blue: hsl(198, 60%, 50%); 
+    --error: hsl(0, 100%, 63%); 
+}
+
+/* main styling */
+
 * {
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px; 
+    text-align: center;
+    color: #fff;
+    background-color: hsl(218, 28%, 13%);
+}
+
+/* header */
+
+header .navbar {
+    justify-content: space-between;
+}
+
+/* features */
+
+main #features {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* stay-productive */
+
+/* testimonials */
+
+/* TODO: later... */
+/* main #testimonials img {
+    position: absolute;
+} */
+
+main #testimonials {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* early-access email-signup */
+
+/* footer */
+
+footer > div {
+    grid-template-columns: 40% 15% 15% 15% 15%;
+}
+
+/* utility classes */
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
 }
