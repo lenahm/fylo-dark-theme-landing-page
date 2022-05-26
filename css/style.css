@@ -8,6 +8,7 @@
     --accent-cyan: hsl(176, 68%, 64%); 
     --accent-blue: hsl(198, 60%, 50%); 
     --error: hsl(0, 100%, 63%); 
+    --success: hsl(132, 57%, 57%); 
 }
 
 /* main styling */
@@ -311,4 +312,20 @@ footer #footer-infos #socialmedia #socialmedia-icons a:hover {
 
 .logo {
     margin-bottom: 30px;
+}
+
+.alert {
+    margin: 10px 0 0 70px;  
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 0.7rem;
+}
+
+.error {
+    color: var(--error);
+}
+
+.success {
+    color: var(--success);
 }
