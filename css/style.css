@@ -245,47 +245,47 @@ footer {
     background-color: var(--bg-footer);
 }
 
-footer .grid {
+footer #footer-infos {
     grid-template-columns: 40% 20% 10% 10% 10%;
     grid-gap: 30px; 
 }  
 
-footer .grid img {
+footer #footer-infos img {
     width: 15px;
     height: 15px;
     margin-right: 20px;
 }
 
-footer .grid div:nth-child(2) .flex > img {
+footer #footer-infos div:nth-child(2) div > img {
     align-self: center;
 }
 
-footer .grid .flex #icon-location {
+footer #footer-infos #footer-location #icon-location {
     transform: translateY(5px);
 }
 
-footer .grid p {
+footer #footer-infos p {
     margin: 0;
 }
 
-footer .grid #footer-menu-left .nav-item,
-footer .grid #footer-menu-right .nav-item {
+footer #footer-infos #footer-menu-left .nav-item,
+footer #footer-infos #footer-menu-right .nav-item {
     list-style-type: none;
     margin-bottom: 10px;
 }
 
-footer .grid #footer-menu-left .nav-item .nav-link,
-footer .grid #footer-menu-right .nav-item .nav-link {
+footer #footer-infos #footer-menu-left .nav-item .nav-link,
+footer #footer-infos #footer-menu-right .nav-item .nav-link {
     text-decoration: none;
     color: #fff;
 }
 
-footer .grid #footer-menu-left .nav-item .nav-link:hover,
-footer .grid #footer-menu-right .nav-item .nav-link:hover {
+footer #footer-infos #footer-menu-left .nav-item .nav-link:hover,
+footer #footer-infos #footer-menu-right .nav-item .nav-link:hover {
     font-weight: 700;
 }
 
-footer .grid #socialmedia .flex a {
+footer #footer-infos #socialmedia #socialmedia-icons a {
     padding: 8px;
     margin-left: 5px;
     color: #fff;
@@ -294,7 +294,7 @@ footer .grid #socialmedia .flex a {
     border-radius: 50%;
 }
 
-footer .grid #socialmedia .flex a:hover {
+footer #footer-infos #socialmedia #socialmedia-icons a:hover {
     color: var(--accent-cyan);
     border: 1px solid var(--accent-cyan);
 }
