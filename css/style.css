@@ -220,19 +220,19 @@ main #early-access {
     border-radius: 10px;
 }
 
-main #early-access > form {
+main #early-access #early-access-form {
     justify-content: center;
     gap: 20px;
 }
 
-main #early-access > form #input-early-access {
+main #early-access #early-access-form #input-early-access {
     width: 350px;
     padding: 10px 35px;
     border: none;
     border-radius: 30px;
 }
 
-main #early-access > form #input-early-access:focus {
+main #early-access #early-access-form #input-early-access:focus {
     outline: none;
 }
 

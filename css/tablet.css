@@ -1,0 +1,67 @@
+/* header */
+
+header > img {
+    bottom: 150px; 
+}
+
+/* features */
+
+main #features {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    padding: 0 100px;
+}
+
+/* stay-productive */
+
+main #stay-productive {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0 100px;
+    text-align: left;
+}
+
+main #stay-productive > img {
+    margin-bottom: 50px;
+}
+
+/* testimonials */
+
+main #testimonials {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 100px;
+}
+
+/* early-access email-signup */
+
+main #early-access {
+    width: 500px;
+}
+
+main #early-access #early-access-form {
+    flex-direction: column;
+}
+
+main #early-access #early-access-form #input-early-access,
+main #early-access #early-access-form > input[type='submit'] {
+    display: block;
+    width: 100%;
+}
+
+/* footer */
+
+footer #footer-infos {
+    grid-template-columns: repeat(1, 1fr);
+}  
+
+footer #footer-infos #socialmedia #socialmedia-icons {
+    justify-content: center;
+}
+
+/* utility classes */
+
+.alert {
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+}
