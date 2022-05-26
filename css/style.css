@@ -249,6 +249,7 @@ footer {
 footer #footer-infos {
     grid-template-columns: 40% 20% 10% 10% 10%;
     grid-gap: 30px; 
+    margin-top: 30px;
 }  
 
 footer #footer-infos img {
@@ -308,10 +309,6 @@ footer #footer-infos #socialmedia #socialmedia-icons a:hover {
 
 .grid {
     display: grid;
-}
-
-.logo {
-    margin-bottom: 30px;
 }
 
 .alert {
